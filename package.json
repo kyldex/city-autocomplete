@@ -1,0 +1,28 @@
+{
+  "name": "city-autocomplete",
+  "version": "1.0.0",
+  "description": "Begin to type the name of a French city to see if it appears in the autocomplete block. Data are raw text that search.php will unserialize.",
+  "main": "main.js",
+  "scripts": {
+    "build:js": "webpack -p",
+    "build:css": "postcss --use autoprefixer cssnano -o dist/style.css style.css"
+  },
+  "author": "raphael giagnorio",
+  "license": "ISC",
+  "browserslist": "last 4 versions",
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.11.5",
+    "autoprefixer": "^10.0.0",
+    "babel-loader": "^8.1.0",
+    "babel-polyfill": "^6.26.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "cssnano": "^4.1.10",
+    "postcss-cli": "^8.0.0",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {
+    "postcss": "^8.0.9"
+  }
+}
