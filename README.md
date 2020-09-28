@@ -6,8 +6,8 @@ Data are raw text that search.php will unserialize.
 
 ## Build
 
-Check request url at the end of getResults() in main.js
-Check scripts used in index.html before use in production
-$ npm run build:js
-$ npm run build:css
+Check request url at the end of getResults() in main.js  
+Check scripts used in index.html before use in production  
+$ npm run build:js  
+$ npm run build:css  
 Output : dist folder  
