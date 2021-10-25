@@ -1,9 +1,10 @@
 {
   "name": "city-autocomplete",
-  "version": "1.0.0",
+  "version": "1.1.0-SNAPSHOT",
   "description": "Begin to type the name of a French city to see if it appears in the autocomplete block. Data are raw text that search.php will unserialize.",
   "main": "main.js",
   "scripts": {
+    "start": "php -S localhost:8888",
     "build:js": "webpack -p",
     "build:css": "postcss --use autoprefixer cssnano -o dist/style.css style.css"
   },

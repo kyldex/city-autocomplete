@@ -1,6 +1,6 @@
 # City autocomplete
 
-Begin to type the name of a French city to see if it appears in the autocomplete block.
+Begin to type the name of a French city to see if it appears in the autocomplete block.  
 Try it directly here : https://city-autocomplete.rg-dev.fr/  
 Data are raw text that search.php will unserialize.  
 
