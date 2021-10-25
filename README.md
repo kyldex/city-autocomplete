@@ -10,5 +10,5 @@ You need PHP to run the website locally. You can also use any local web server a
 
 ## Build
 
-$ npm run build
+$ npm run build  
 Output : /dist  
