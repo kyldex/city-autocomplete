@@ -3,6 +3,3 @@ node_modules/
 
 # macOS
 .DS_Store
-
-# Fix compatibility with Mac OS
-package-lock.json
