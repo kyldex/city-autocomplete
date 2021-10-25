@@ -4,10 +4,11 @@ Begin to type the name of a French city to see if it appears in the autocomplete
 Try it directly here : https://city-autocomplete.rg-dev.fr/  
 Data are raw text that search.php will unserialize.  
 
+## Dev
+
+You need PHP to run the website locally. You can also use any local web server able to run PHP scripts.
+
 ## Build
 
-Check request url at the end of getResults() in main.js  
-Check scripts used in index.html before use in production  
-$ npm run build:js  
-$ npm run build:css  
-Output : dist folder  
+$ npm run build
+Output : /dist  
