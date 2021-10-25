@@ -66,11 +66,7 @@ function resetCurrentResults() {
 }
 
 inputElement.addEventListener('keyup', function (e) {
-  // Verify if KeyboardEvent.keyCode is not supported anymore.
-  const key = e.key;
-  const keyCode = e.keyCode;
-
-  if ((key && e.key === 'ArrowUp') || (keyCode && e.keyCode === 38)) {
+  if (e.key === 'ArrowUp') {
     if (selectedIndex > -1) {
       const previousSelectedResult = document.querySelector('.selected-result');
       previousSelectedResult.classList.remove('selected-result');
@@ -84,7 +80,7 @@ inputElement.addEventListener('keyup', function (e) {
         currentResultsElements[selectedIndex].classList.add('selected-result');
       }
     }
-  } else if ((key && e.key === 'ArrowDown') || (keyCode && e.keyCode === 40)) {
+  } else if (e.key === 'ArrowDown') {
     const currentResultsElements =
       document.querySelectorAll('.current-results');
 
@@ -101,7 +97,7 @@ inputElement.addEventListener('keyup', function (e) {
         currentResultsElements[selectedIndex].classList.add('selected-result');
       }
     }
-  } else if ((key && e.key === 'Enter') || (keyCode && e.keyCode === 13)) {
+  } else if (e.key === 'Enter') {
     const selectedResult = document.querySelector('.selected-result');
 
     if (selectedResult) {
